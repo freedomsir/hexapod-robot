@@ -20,6 +20,7 @@ void rotate(vector<int>& nums, int k) {
 }
 
 int main() {
+int xc=100;
     vector<int> nums = {1, 2, 3, 4, 5, 6, 7};
     int k = 3;
 
