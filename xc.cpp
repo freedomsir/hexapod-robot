@@ -3,10 +3,11 @@
 #include <algorithm>
 
 using namespace std;
+//新增内容
 
 void rotate(vector<int>& nums, int k) {
     int n = nums.size();
-    k %= n; // 防止 k 大于数组长度
+    k %= n; // （防止 k 大于数组），修改内容
 
     // 反转整个数组
     reverse(nums.begin(), nums.end());
